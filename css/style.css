@@ -12,7 +12,7 @@ body {
     color: white;      
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    width: 100vh;
+    width: 100vw;
 }
 header{
     display: flex;
@@ -24,17 +24,23 @@ header img.orilla {
     width: 143px;
     height: 36px;
     margin-top: 32px;
-}
+} 
 
-main {
+.container80 {
     display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-main section h1 {
+.padding-5 {
+    padding: 8%;
+}
+
+h1 {
     width: 424px;
     height: 231px;
-    margin-left: 170px;
-    margin-top: 149px;
     font-family: terror;
     font-style: normal;
     font-weight: 500;
@@ -43,10 +49,7 @@ main section h1 {
     color: #FFFFFF;
 }
 
-main section p{
-    width: 328px;
-    height: 108px;
-    margin-left: 170px;
+p{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 27px;
@@ -61,30 +64,9 @@ main section p{
     align-items: flex-start;
     height: 43px;
     width: 131px;
-    margin-left: 170px;
     border-radius: 3px;
     padding: 8px 0px 0px 16px;
     border-radius: 3px;
     background: #A80A30;
     color: white;
 }
-
-.modal-title,
-.modal-body {
-    color: black;
-}
-
-main section img {
-    height: 594px;
-    width: 509px;
-    margin-left: 100px;
-    margin-top: 41px;
-}
-
-
-/* @media (max-width: 600px) {
-  .facet_sidebar {
-    display: none;
-  }
-} */
-
