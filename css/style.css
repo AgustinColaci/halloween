@@ -1,0 +1,90 @@
+@font-face {
+    font-family: terror;
+    src: url("../font/terror.ttf");
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    background-image: url("../img/background.png");
+    background-size: cover;
+    color: white;      
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    width: 100vh;
+}
+header{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+header img.orilla {
+    width: 143px;
+    height: 36px;
+    margin-top: 32px;
+}
+
+main {
+    display: flex;
+}
+
+main section h1 {
+    width: 424px;
+    height: 231px;
+    margin-left: 170px;
+    margin-top: 149px;
+    font-family: terror;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+main section p{
+    width: 328px;
+    height: 108px;
+    margin-left: 170px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 27px;
+    font-size: 16px;
+    line-height: 170%;
+    color: #FFFFFF;
+}
+
+.btn-dangers {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 43px;
+    width: 131px;
+    margin-left: 170px;
+    border-radius: 3px;
+    padding: 8px 0px 0px 16px;
+    border-radius: 3px;
+    background: #A80A30;
+    color: white;
+}
+
+.modal-title,
+.modal-body {
+    color: black;
+}
+
+main section img {
+    height: 594px;
+    width: 509px;
+    margin-left: 100px;
+    margin-top: 41px;
+}
+
+
+/* @media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+} */
+
