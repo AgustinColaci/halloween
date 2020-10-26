@@ -17,8 +17,7 @@ body {
     width: 100vw;
 }
 header{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     width: 100vw;
 }
 
@@ -29,8 +28,6 @@ header img.orilla {
 } 
 
 .container80 {
-    display: flex;
-    justify-content: center;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -40,14 +37,12 @@ header img.orilla {
     padding: 8%;
 }
 
-h1 {
-    width: 424px;
-    height: 231px;
+h1, span {
     font-family: terror;
     font-style: normal;
     font-weight: 500; 
     font-size: 6.5rem;
-    line-height: 61px;
+    line-height: 6.1rem;
     color: #FFFFFF;
     margin-bottom: 50px;
 }
@@ -76,3 +71,26 @@ p{
     font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
 }
+
+
+
+@media (max-width: 600px) {
+    h1, span {
+      font-size: 4.5rem;
+      line-height: 4.4rem;
+      margin-bottom: 25px;
+    }
+    .btn-dangers {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+    }
+    .collage {
+        margin-bottom: 50px;
+    }
+    header img.orilla {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+  } 
