@@ -5,7 +5,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
+html {
+    font-size: 62.5%;
+}
 body {
     background-image: url("../img/background.png");
     background-size: cover;
@@ -43,10 +45,11 @@ h1 {
     height: 231px;
     font-family: terror;
     font-style: normal;
-    font-weight: 500;
-    font-size: 52px;
+    font-weight: 500; 
+    font-size: 6.5rem;
     line-height: 61px;
     color: #FFFFFF;
+    margin-bottom: 50px;
 }
 
 p{
@@ -68,6 +71,8 @@ p{
     padding: 8px 0px 0px 16px;
     border-radius: 3px;
     background: #A80A30;
+    margin-top: 50px;
     color: white;
+    font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
 }
