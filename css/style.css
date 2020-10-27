@@ -59,11 +59,10 @@ p{
 .btn-dangers {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     height: 43px;
     width: 131px;
-    border-radius: 3px;
-    padding: 8px 0px 0px 16px;
     border-radius: 3px;
     background: #A80A30;
     margin-top: 50px;
